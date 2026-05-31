@@ -7,14 +7,14 @@ OTP-Export has no ties to WinOTP Authenticator and does not use any advanced tec
 
 ## Requirements
 
-- The Accounts.json file found at "%LOCALAPPDATA%\Packages\<WinOTP Authenticator Directory>\LocalState"
-- .NET 8 runtime ([download](https://dotnet.microsoft.com/download/dotnet/8.0))
+- Windows 10 (build 17763) or later
 - Must be run as the **same Windows user** who set up the Authenticator app on **the original Windows environment the app was used on**
 
 ## Installation
 
-Download the latest release from the [Releases](../../releases) page and extract the zip.
-Alternatively, install the .NET 8 SDK and run ```dotnet run```
+Download the latest release from the [Releases](../../releases) page. The exe is self-contained — no .NET installation required.
+
+To build from source, install the [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0) and run `dotnet run`.
 
 ## Usage
 
