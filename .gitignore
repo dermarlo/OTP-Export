@@ -1,0 +1,17 @@
+# .NET build output
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Rider
+.idea/
+
+# Tool output — contains plaintext TOTP secrets, never commit
+accounts-plain.json
+
+# Claude Code
+CLAUDE.md
